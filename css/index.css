@@ -168,11 +168,27 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-nav {
+#nav_bar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1.5px dashed #C0C0C0;
+}
+#nav_bar .nav_bar {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
+  padding: 2.5% 0%;
+  max-width: 800px;
+  width: 100%;
 }
-nav a {
+#nav_bar .nav_bar nav {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+#nav_bar .nav_bar nav a {
+  font-size: 1.4rem;
   text-decoration: none;
   color: black;
 }
